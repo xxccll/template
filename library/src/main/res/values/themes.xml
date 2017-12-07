@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app customer theme for override -->
+    <style name="TemplateTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- use toolbar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#1a237e</item> <!-- status bar color -->
+        <item name="colorPrimary">#283593</item> <!-- actionbar color -->
+        <item name="colorAccent">#5c6bc0</item>  <!-- actionbar  component enable color -->
+
+        <!-- toolbar style -->
+        <item name="actionBarSize">55dp</item>
+        <item name="actionBarTheme">@style/TemplateToolbarTheme</item>
+        <item name="actionBarPopupTheme">@style/TemplateToolbarPopupTheme</item>
+    </style>
+
+    <!-- toolbar theme -->
+    <style name="TemplateToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+
+    <!-- popupMenu style -->
+    <style name="TemplateToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@android:color/white</item>  <!-- overflow menu background -->
+        <item name="android:textColorPrimary">@android:color/black</item> <!-- overflow menu textColor -->
+    </style>
+
+</resources>

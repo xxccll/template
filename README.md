@@ -1,2 +1,2 @@
 # template
-templates of AppCompactActivity and PreferenceActivity 
+AppCompactActivity template
