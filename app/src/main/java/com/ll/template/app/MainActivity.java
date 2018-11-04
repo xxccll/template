@@ -1,10 +1,11 @@
 package com.ll.template.app;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBar;
 
 import com.ll.support.template.TemplateActivity;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 
 public class MainActivity extends TemplateActivity {
 

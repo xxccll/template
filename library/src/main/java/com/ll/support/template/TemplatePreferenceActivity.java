@@ -3,9 +3,10 @@ package com.ll.support.template;
 import android.app.Activity;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
+
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * author: ll
